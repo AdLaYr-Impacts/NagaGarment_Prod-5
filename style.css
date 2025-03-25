@@ -1242,7 +1242,16 @@ footer{
         margin-top: 0px;
     }
     .up-arrow {
+        height: 60px;
+        width: 60px;
+        background-color: rgba(33, 42, 53, 0);
+        bottom: 0px;
         right: 80px;
+    }
+    .up-arrow::before {
+        content: "▲";
+        color: #555;
+        font-size: 25px;
     }
 }
 @media only screen and (max-width: 670px){
